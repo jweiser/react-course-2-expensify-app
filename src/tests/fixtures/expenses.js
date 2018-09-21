@@ -19,3 +19,23 @@ export default [{
     amount: 4500,
     createdAt: moment(0).add(4, 'days').valueOf()
 }];
+
+export const alternateExpenses = [{
+    id: '4',
+    description: 'Chocolate Bar',
+    note: '',
+    amount: 200,
+    createdAt: 0
+},{
+    id: '5',
+    description: 'Clothes',
+    note: '',
+    amount: 8000,
+    createdAt: moment(0).subtract(10, 'days').valueOf()
+},{
+    id: '6',
+    description: 'Bus Pass',
+    note: '',
+    amount: 15000,
+    createdAt: moment(0).add(10, 'days').valueOf()
+}];
